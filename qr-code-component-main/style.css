@@ -1,0 +1,55 @@
+@font-face {
+    font-family: Outfit;
+    src: url(images/Outfit-VariableFont_wght.ttf);
+  }
+  body{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsl(212, 45%, 89%);
+    height: 100vh;
+    font-family: Outfit;
+    flex-direction: column;
+  }
+  .caixa{
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background: white;
+    border-radius: 20px;
+  }
+
+  .caixa img{
+    width: 320px;
+    padding: 15px;
+    justify-content: center;
+    align-self: center;
+    border-radius: 30px;
+  } 
+
+
+  .caixa h1{
+    font-size: 25px;
+    padding: 2px 25px;
+    color: hsl(217, 47%, 25%);
+  }
+  .caixa p{
+    font-size: 15px;
+    padding: 2px 40px 40px;
+    text-align: center;
+    margin: auto;
+    color: hsl(220, 15%, 55%);
+  }
+  .atribuicao {
+     font-size: 11px; text-align: center; 
+     padding: 7px 12px 20px;
+    }
+  .atribuicao a {
+     color: hsl(305, 54%, 46%); 
+    }
+
+    media
