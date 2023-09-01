@@ -24,32 +24,32 @@
   }
 
   .caixa img{
-    width: 320px;
+    width: 342px;
     padding: 15px;
     justify-content: center;
-    align-self: center;
+    align-items: center;
     border-radius: 30px;
   } 
 
 
   .caixa h1{
-    font-size: 25px;
-    padding: 2px 25px;
+    font-size: 23px;
+    padding: 4px 25px 10px;
     color: hsl(217, 47%, 25%);
   }
   .caixa p{
     font-size: 15px;
-    padding: 2px 40px 40px;
+    padding: 2px 43px 40px;
     text-align: center;
     margin: auto;
     color: hsl(220, 15%, 55%);
   }
   .atribuicao {
-     font-size: 11px; text-align: center; 
-     padding: 7px 12px 20px;
+    align-items: end;
+     font-size: 11px; 
+     text-align: center; 
+     padding: 9px 12px 20px;
     }
   .atribuicao a {
      color: hsl(305, 54%, 46%); 
     }
-
-    media
